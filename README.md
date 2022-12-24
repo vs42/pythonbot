@@ -1,1 +1,1 @@
-# pythonbot
+# Выполните "docker-compose up" в bot
