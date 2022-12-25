@@ -57,7 +57,8 @@ def balda(message):
     else:
         with open('posts.csv') as f:
             reader = csv.DictReader(f)
-            row1 = next(reader)
+            for i in range(random.randint(1, 30)):
+                row1 = next(reader)
             row1 = next(reader)
             bot.send_message(message.chat.id, str(row1))
 
